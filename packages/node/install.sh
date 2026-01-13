@@ -1,10 +1,10 @@
-# claude
+# node
 
 dependencies() {
-  echo "node"
+  echo "mise"
 }
 
 post_install() {
   source <(mise activate zsh)
-  mise install claude
+  mise install node
 }
