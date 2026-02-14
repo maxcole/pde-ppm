@@ -2,5 +2,5 @@
 
 post_install() {
   source <(mise activate bash)
-  mise install claude
+  mise install "npm:@anthropic-ai/claude-code"
 }
